@@ -5,7 +5,7 @@ const webpack = require('webpack');
 module.exports = {
     mode: 'development',
     entry: [
-        'webpack-hot-middleware/client', path.join(__dirname, 'src', 'app', 'app.js')
+        'webpack-hot-middleware/client', path.join(__dirname, 'src', 'app', 'index.js')
     ],
     output: {
         publicPath: '/',
